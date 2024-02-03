@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+
+* {
+    margin-left: 5px;
+    margin-right: 5px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Baloo Bhai', cursive;
+}
+
+body {
+    margin: 0;
+    background-color: #010207;
+    color: #EFECEC;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.input-section label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.input-section input[type="number"],
+.input-section input[type="date"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#category-select {
+    width: 120px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+#amount-input {
+    width: 120px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+#date-input {
+    width: 120px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.input-section button {
+    padding: 10px 15px;
+    background-color: rgb(238, 9, 9);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.expenses-list {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+th {
+    background-color: #D9EDBF;
+    color: rgb(12, 1, 1);
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+.delete-btn {
+    background-color: rgb(238, 9, 9);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
+#save-btn {
+    background-color: rgb(238, 9, 9);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin: 20px auto;
+}
